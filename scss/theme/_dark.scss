@@ -1,0 +1,18 @@
+html.dark {
+    --text-color: #fff;
+    --icon-color:  invert(100%) sepia(100%) saturate(0%) hue-rotate(201deg) brightness(106%) contrast(108%);
+
+    --body-bg:#292E39;
+    --header-bg-color: #171C28;
+    --top-act-group-bg-color: #292E39;
+    --top-act-group-shadow: rgba(0, 0, 0, 0.20);
+    --top-act-group-separate:#EDEDF6;
+
+      //dropdown
+      --dropdown-bg-color:#2f3441;
+      --dropdown-shadow-color:rgba(23, 28, 40, 0.40);
+      --dropdown-arrow-color: invert(17%) sepia(21%) saturate(548%) hue-rotate(186deg) brightness(98%) contrast(92%);
+      --top-menu-border-color: #171c28;
+      --menu-column-icon-color:invert(92%) sepia(1%) saturate(2375%) hue-rotate(202deg) brightness(107%) contrast(97%);
+
+}

@@ -1,0 +1,22 @@
+@use "../abstracts";
+
+html {
+    --text-color: #1A162E;
+    --icon-color: invert(9%) sepia(24%) saturate(1283%) hue-rotate(210deg) brightness(99%) contrast(99%);
+
+    --body-bg: #F6F6F6;
+    --header-bg-color: #EEEEEE;
+    --top-act-group-bg-color: #FFF;
+    --top-act-group-shadow: rgba(237, 237, 246, 0.20);
+    --top-act-group-separate:#EDEDF6;
+
+    @include abstracts.breakpoints(lg){
+        --header-bg-color: #fff;
+
+    }
+
+    //dropdown
+    --dropdown-bg-color:#fff;
+    --dropdown-shadow-color:rgba(200, 200, 200, 0.40);
+    --top-menu-border-color: #d2d1d6;
+}
